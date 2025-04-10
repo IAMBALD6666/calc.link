@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ticalc.link</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script type="text/javascript" src="index.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHH0F88Y4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KKHH0F88Y4', { 'anonymize_ip': true });
+    </script>
+  </head>
+  <body>
+    <main>
+      <section id="flow">
+        <h1>ticalc.link</h1>
+        <p>Send a file to your calculator over USB from right here in your web browser.</p>
+        <section class="buttons">
+          <button id="connect" class="active"><span>1</span> Select calculator</button>
+          <button id="upload"><span>2</span> Select file</button>
+          <button id="start"><span>3</span> Send it!</button>
+        </section>
+        <p>Currently supported: <span id="supported"></span></p>
+      </section>
+      <section id="incompatible">
+        <h1>ticalc.link</h1>
+        <p>Sorry, this web browser does not support WebUSB. Please try using a different web browser!</p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        This website is still very experimental.
+        It comes with absolutely no guarantees.
+        So be warned, and please <a href="https://github.com/Timendus/ticalc.link/issues">report any issues</a>.
+        It is Open Source, and can be found <a href="https://github.com/Timendus/ticalc.link">on Github</a>.
+      </p>
+    </footer>
+    <section id="popup">
+      <section id="content">
+        <h2></h2>
+        <p></p>
+        <section class="buttons"></section>
+      </section>
+    </section>
+  </body>
+</html>
